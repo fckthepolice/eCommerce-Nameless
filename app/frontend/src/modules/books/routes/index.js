@@ -7,22 +7,22 @@ const routes = [
     {
       path: '/home',
       name: 'home',
-      component: () => import('../pages/BooksPage.vue')
+      component: () => import('../../../layouts/default/View.vue')
     },
     {
       path: '/bag',
       name: 'bag',
-      component: () => import('../pages/BooksPage.vue')
+      component: () => import('../pages/BagPage.vue')
     },
     {
       path: '/map',
       name: 'map',
-      component: () => import('../pages/BooksPage.vue')
+      component: () => import('../pages/MapsPage.vue')
     },
     {
       path: '/user',
       name: 'user',
-      component: () => import('../pages/BooksPage.vue')
+      component: () => import('../pages/UserPage.vue')
     },
 ]
 
