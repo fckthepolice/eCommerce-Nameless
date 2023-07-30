@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <headerView />
+    <menuView />
 
     <default-view />
     <footerView />
@@ -11,4 +12,5 @@
   import DefaultView from './View.vue'
   import headerView from './Header.vue';
   import footerView from './Footer.vue'
+  import menuView from './S_header.vue'
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <v-footer color="#354C3C" class="h-auto w-100">
+    <v-footer color="#354C3C" class="w-100">
 
     </v-footer>
 </template>

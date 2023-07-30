@@ -1,14 +1,14 @@
 <template>
-    <v-app-bar color="#354C3C" class="h-auto w-100">
-        <v-app-bar-title>
+    <v-toolbar color="#354C3C" class="w-100">
+        <v-toolbar-title>
             <v-btn icon to="/home">
                 <img class="brand" src="/icons/nameless-icon-white.svg">
             </v-btn>
-        </v-app-bar-title>
+        </v-toolbar-title>
         <v-btn icon v-for="item in menu" :key="item.path" :to="item.path">
             <img class="icon-img" :src="`${item.src}`">
         </v-btn>
-    </v-app-bar>
+    </v-toolbar>
 </template>
 
 <style>
