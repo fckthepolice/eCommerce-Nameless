@@ -8,8 +8,7 @@
     </div>
 </template>
 
-<style>
-    @import url(/fonts/fonts.css);
+<style scoped>
     .search-menu{
         box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
         height: 35px;

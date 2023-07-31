@@ -8,6 +8,10 @@
   </v-app>
 </template>
 
+<style>
+    @import url(/fonts/fonts.css);
+</style>
+
 <script setup>
   import DefaultView from './View.vue'
   import headerView from './Header.vue';

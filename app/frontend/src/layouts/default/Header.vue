@@ -11,7 +11,7 @@
     </v-toolbar>
 </template>
 
-<style>
+<style scoped>
     .brand{
         height: 2em;
     }
