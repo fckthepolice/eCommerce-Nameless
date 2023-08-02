@@ -24,6 +24,10 @@
     a{
         text-decoration: none;
         color: #1c1c1c;
+        transition: color 0.4s ease;
+    }
+    a:hover{
+        color: rgba(141, 19, 18, 0.75);
     }
 </style>
 

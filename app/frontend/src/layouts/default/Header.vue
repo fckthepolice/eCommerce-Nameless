@@ -63,7 +63,7 @@
                 ],
                 bag:[
                     {
-                        title: 'Mostrar carrito'
+                        title: 'Bolso de compras'
                     }
                 ]
                 // menu: [
